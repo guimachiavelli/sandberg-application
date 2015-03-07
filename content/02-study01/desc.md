@@ -1,4 +1,4 @@
-# study 01 card
+# study 01
 
 Study 01 is an interactive nonsense narrative that takes the user through the journey of a man who seeks like-minded fellows  to begin a homossexual revolution based on highly sexualised interpretations of anarchist ideals. 
 
