@@ -12,11 +12,12 @@ def insert_link(line)
 end
 
 def setup_font
-  font_families.update('im fell' => {
-        :normal => './fonts/IMFeGPrm28P.ttf'
+    font_families.update('times' => {
+        :normal => './fonts/times.ttf'
     })
 
-    font 'im fell'
+    font 'times'
+    default_leading 2.5
 end
 
 def generate_project_pdf(file, project_dir, project)
