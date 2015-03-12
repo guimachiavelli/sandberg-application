@@ -38,7 +38,6 @@ def generate_project_pdf(file, project_dir, project)
     filename = File.join('dist', project + '.pdf')
     Prawn::Document.generate(filename, :page_size => 'A4') do
         content = File.new(file)
-        first_page = true
         setup_font
 
         content.each_line do |line|
@@ -59,17 +58,39 @@ def generate_project_pdf(file, project_dir, project)
     end
 end
 
+def generate_doc_pdf(doc_file, documents_dir, doc)
+    filename = File.join('dist', doc.gsub('.md', '') + '.pdf')
+    Prawn::Document.generate(filename, :page_size => 'A4') do
+        content = File.new(doc_file)
+        setup_font
+
+        content.each_line do |line|
+            text line
+        end
+
+    end
+end
+
 def generate_pdfs
-    projects_dir = './content'
+    projects_dir = './content/projects'
+    documents_dir = './content/docs'
     projects = Dir.entries(projects_dir)
+    documents = Dir.entries(documents_dir)
 
     projects.each do |project|
         next if project[0] == '.'
         project_dir = File.join(projects_dir, project)
         project_file = File.join(project_dir, 'desc.md')
-        puts project_file
+        puts project
 
         generate_project_pdf project_file, project_dir, project
+    end
+
+    documents.each do |doc|
+        next if doc[0] == '.' ||  File.extname(doc) != '.md'
+        puts doc
+        doc_file = File.join(documents_dir, doc)
+        generate_doc_pdf(doc_file, documents_dir, doc)
     end
 end
 

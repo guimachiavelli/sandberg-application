@@ -1,8 +1,10 @@
 .PHONY: build
-GIFS = $(shell  find content/04-4eva/images -type f -iname "*.gif" | sed 's/gif/jpg/')
+GIFS = $(shell  find content/projects/04-4eva/images -type f -iname "*.gif" | sed 's/gif/jpg/')
 
 build:
-	ruby generate-pdf.rb
+	@echo 'generating pdfs'
+	@ruby generate-pdf.rb
+	@echo 'done'
 
 
 CONVERT_CMD = convert '$<[0]' $@
