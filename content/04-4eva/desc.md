@@ -2,10 +2,13 @@
 
 url: http://www.lovemessageservice.com
 
-4EVA is a collaboration with Pinar&Viola. The idea started after being commissioned by the Paradiso Phone Expo on creating a project around cellphones and the theme "Hey! How are you?" Thinking about how exaggeratedly perfect – surpassing stepfordian levels – are the virtual girlfriends and boyfriends one can usually find on the internet, we created a message service that delivers intimate pictures and texts from a perfect lover. More specifically, we wanted to create  narrative of a virtual relationship that would develop in a crescendo of passion and obsession that would burst in flames in its grand finale. 
+Thinking about how exaggeratedly perfect – surpassing stepfordian levels – are the virtual girlfriends and boyfriends one can usually find on the internet, Pinar&Viola and I created a message service that delivers intimate pictures and texts from a perfect lover. 
+
+My personal interest in this project was the narrative of a virtual relationship that would develop in a crescendo of passion and obsession, until it eventually would burst out in flames in its grand finale. Mixing the allure of a perfect lover, the logical impossibility of such a thing, our westerner craving for services that cater to every single desire and the implicit fear around all digital contacts, I saw it as a virtual tragedy, narrated the actual messages from real lovers in their different states of infatuation and bitterness.
 
 I was in charge both of the technical side and writing the text messages that were to be delivered to one’s cellphone or e-mail account. The writing process was mainly scouring social media for exchanged love messages, which were then editorialised and recombined.
 
+4EVA was a collaboration with Pinar&Viola and one their capsule collections. Initially released as part of phone-expo.nl and using SMSs, it is now also available on the project url.
 
 img: girl_2_snake.jpg
 i just nEeda mAKe iTt cLeAr » U know l luv u ! kiSsYkiss buHbYe luvV

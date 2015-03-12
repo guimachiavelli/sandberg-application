@@ -2,11 +2,11 @@
 
 url: http://iwouldrathermystreets.com
 
-I Would Rather My Streets was an installation and my final project for Hyper Island. I spread QR codes with site-specific micro-stories embedded around Stockholm.
+I Would Rather My Streets was my final project for Hyper Island. I spread QR codes with site-specific micro-stories embedded around Stockholm.
 
-These stories were actually memories of things that happened around the city, written in the same places they were formed and available, through the QR codes, as a hidden layer of information on top of the physical world. Small narratives, from commonplace to slightly extravagant, from confessions to puzzling moments, hints of the infinity of stories that are formed at every moment in every place, but irremediably lost and inaccessible except, perhaps, for the person who formed them.
+These stories were actually memories of things that happened around the city, written in the same places they were formed, and available through the QR codes as a hidden layer of information on top of the physical world. Small narratives that exist in the lingering of words in one’s mind, from commonplace to slightly extravagant, from confessions to puzzling moments, hints of the infinity of stories that are formed at every moment in every place, but irremediably lost and inaccessible except, perhaps, for the person who formed them.
 
-This project was an exploration of fleeting narratives, as well as a reflection on the idea of public space as an intertwining of countless stories that are hopelessly lost almost at the same time they are created. 
+This project was an exploration of fleeting narratives, as well as a reflection on the idea of public space as an intertwining of countless stories that are hopelessly ephemeral.  
 
 img: place1.jpg
 #10

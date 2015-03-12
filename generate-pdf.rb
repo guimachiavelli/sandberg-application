@@ -8,6 +8,14 @@ def insert_image(image_file, project_dir)
     move_down Random.rand(250)
 end
 
+
+def insert_quote(line)
+    start_new_page
+    quote = line.gsub('quote:', '').strip
+    quote.split(' / ').each { |verse| font_size(25) { text verse  } }
+    move_down Random.rand(250)
+end
+
 def insert_link(line)
     href = line.gsub('url:', '').strip
     formatted_text [{
@@ -30,7 +38,7 @@ def generate_project_pdf(file, project_dir, project)
     filename = File.join('dist', project + '.pdf')
     Prawn::Document.generate(filename, :page_size => 'A4') do
         content = File.new(file)
-
+        first_page = true
         setup_font
 
         content.each_line do |line|
@@ -38,6 +46,10 @@ def generate_project_pdf(file, project_dir, project)
                 insert_image(line, project_dir)
             elsif line.start_with? 'url:'
                 insert_link(line)
+            elsif line.start_with? 'quote:'
+                insert_quote(line)
+            elsif line.start_with? '===='
+                start_new_page
             elsif line.start_with? '#'
                 font_size(50) { text line.gsub('#', '') }
             else
