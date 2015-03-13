@@ -6,6 +6,8 @@ build:
 	@ruby generate-pdf.rb
 	@echo 'done'
 
+package:
+	zip -9 -r dist.zip ./dist
 
 CONVERT_CMD = convert '$<[0]' $@
 

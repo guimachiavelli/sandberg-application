@@ -1,6 +1,6 @@
 # Studies 02 and 03
 
-I’m currently dividing my time between two studies. The first focus on poetry and generative processes of uncreative writing, whilst the second is still in its infancy and is interested in recursion as a concept applied to neurotic behaviour.
+I’m currently dividing my time between two studies. The first focuses on poetry and generative processes of uncreative writing, whilst the second is still in its infancy and is interested in recursion as a concept applied to neurotic behaviour.
 
 ==============================================
 
