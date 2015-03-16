@@ -17,13 +17,13 @@ end
 
 def insert_caption(line)
     caption = line.gsub('caption:', '').strip
-    draw_text "#{[0x263A].pack('U')} #{caption}", :at => [0,0]
+    draw_text "#{[0x2191].pack('U')} #{caption}", :at => [0,0], :size => 10
 end
 
 def insert_footnote(line, position)
     position = position * 15
     footnote = line.gsub('footnote:', '').strip
-    text_box footnote, :at => [0, position], :style => :italic
+    text_box footnote, :at => [0, position], :style => :italic, :size => 10
 end
 
 def insert_link(line)
@@ -71,7 +71,7 @@ def generate_project_pdf(file, project_dir, project)
             elsif line.start_with? '#'
                 font_size(50) { text line.gsub('#', '') }
             else
-                text line
+                font_size(15) { text line }
             end
         end
     end
